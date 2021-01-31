@@ -95,12 +95,12 @@ const StyledDetails = styled.div`
 
 `
 const StyledContainer = styled.div`
- min-height:75vh;
+ height:65rem;
  width:75%;
  background-image:url(${mountain2});
  background-repeat:no-repeat;
  background-size:cover;
- background-position:center;
+ background-position:top center bottom;
  position:absolute;
  top:50%;
  left:50%;
@@ -122,6 +122,7 @@ const StyledTempDetails = styled(motion.div)`
   .place{
       h2{
           font-size:3.5rem;
+          text-align:center;
            span{
             margin-left:1.5rem;
                font-size:2.2rem;
